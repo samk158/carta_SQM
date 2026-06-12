@@ -1,0 +1,1250 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-07T20:37:33Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129809338",
+        "addr:city": "La Paz",
+        "addr:street": "Camino al Huayna y a Zongo",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Tranca Milluni",
+        "operator": "Policía Nacional de Bolivia",
+        "operator:short": "PNB",
+        "operator:wikidata": "Q3065571",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1510184,
+          -16.3286943
+        ]
+      },
+      "id": "way/129809338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/278039845",
+        "amenity": "police",
+        "name": "Distrito Policial No 3",
+        "operator": "Policia Boliviana",
+        "place": "plot",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1525587,
+          -16.5283938
+        ]
+      },
+      "id": "way/278039845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292080723",
+        "amenity": "police",
+        "building": "yes",
+        "horse": "no",
+        "name": "Retén Policial de Villa Adela",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2095819,
+          -16.5213449
+        ]
+      },
+      "id": "way/292080723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/443541552",
+        "amenity": "police",
+        "barrier": "wall",
+        "name": "Escuela Básica Policial ESBAPOL",
+        "police": "training_area",
+        "short_name": "ESBAPOL",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2162148,
+          -16.5227845
+        ]
+      },
+      "id": "way/443541552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/473437237",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Módulo Policial San Martín de Porres",
+        "operator": "Policía Nacional de Bolivia",
+        "operator:short": "PNB",
+        "operator:wikidata": "Q3065571",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2234428,
+          -16.5658097
+        ]
+      },
+      "id": "way/473437237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477910776",
+        "addr:city": "El Alto",
+        "addr:street": "Cristóbal Ramírez de Cartagena",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Modulo Policial",
+        "operator": "Policia Boliviana Nacional",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2010561,
+          -16.5171834
+        ]
+      },
+      "id": "way/477910776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/485996779",
+        "addr:street": "Avenida Bolognesi",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Comisaría PNP El Alto",
+        "phone": "+51 7 3410994",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2131066,
+          -4.2668351
+        ]
+      },
+      "id": "way/485996779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509640226",
+        "amenity": "police",
+        "building": "government",
+        "level": "1",
+        "name": "Módulo Policial Tejada Alpacoma",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1489155,
+          -16.5350005
+        ]
+      },
+      "id": "way/509640226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517790857",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1912485,
+          -16.5576395
+        ]
+      },
+      "id": "way/517790857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/585236720",
+        "amenity": "police",
+        "building": "yes",
+        "name": "poli",
+        "operator": "Policía Boliviana",
+        "operator:wikidata": "Q3065571",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1888485,
+          -16.5011647
+        ]
+      },
+      "id": "way/585236720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/639073557",
+        "amenity": "police",
+        "check_date": "2026-01-13",
+        "name": "Estación Policial Integral Regimiento Cinco",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1910862,
+          -16.4785231
+        ]
+      },
+      "id": "way/639073557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/678015062",
+        "addr:city": "El Alto",
+        "amenity": "police",
+        "check_date": "2024-06-21",
+        "name": "Batallón de Tránsito El Alto",
+        "operator": "Policia Nacional",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1538282,
+          -16.5112688
+        ]
+      },
+      "id": "way/678015062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/681520716",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Modulo Policial No 8 Pacajes - Caluyo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1925802,
+          -16.531675
+        ]
+      },
+      "id": "way/681520716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682308181",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Módulo Policial Ballivian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.176454,
+          -16.4899184
+        ]
+      },
+      "id": "way/682308181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682689400",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1713693,
+          -16.4781505
+        ]
+      },
+      "id": "way/682689400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682990795",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Módulo Policial Villa Dolores F",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1871443,
+          -16.5262432
+        ]
+      },
+      "id": "way/682990795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683136140",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Módulo Policial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1997255,
+          -16.5365535
+        ]
+      },
+      "id": "way/683136140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683467526",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Módulo Policial No 16",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2149783,
+          -16.5249802
+        ]
+      },
+      "id": "way/683467526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683802074",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Módulo Policial No 18",
+        "phone": "800142022",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2159051,
+          -16.5345736
+        ]
+      },
+      "id": "way/683802074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704677775",
+        "addr:city": "El Alto",
+        "amenity": "police",
+        "barrier": "wall",
+        "name": "Fuerza de Lucha Contra la Violencia",
+        "operator": "Policía Boliviana",
+        "police": "offices",
+        "ref": "8",
+        "short_name": "FELCV",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1878457,
+          -16.6147053
+        ]
+      },
+      "id": "way/704677775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/756779748",
+        "amenity": "police",
+        "barrier": "wall",
+        "name": "Transito Policial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1647026,
+          -16.5022272
+        ]
+      },
+      "id": "way/756779748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/759082198",
+        "amenity": "police",
+        "building": "government",
+        "level": "1",
+        "name": "Policia",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1489891,
+          -16.5351484
+        ]
+      },
+      "id": "way/759082198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/819277019",
+        "amenity": "police",
+        "barrier": "wall",
+        "name": "FELCC Ciudad Satelite",
+        "wall": "brick",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1543682,
+          -16.5274434
+        ]
+      },
+      "id": "way/819277019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/887665849",
+        "amenity": "police",
+        "area": "yes",
+        "name": "Modulo Policial Plan 405",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1543991,
+          -16.5236062
+        ]
+      },
+      "id": "way/887665849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1004798332",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Avenida Panorámica",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Módulo Plan 50B",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1456604,
+          -16.529183
+        ]
+      },
+      "id": "way/1004798332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1087092496",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Modulo Policial",
+        "operator": "Policía Boliviana",
+        "operator:wikidata": "Q3065571",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1642685,
+          -16.4799395
+        ]
+      },
+      "id": "way/1087092496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3672698792",
+        "amenity": "police",
+        "name": "FELCN",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1543566,
+          -16.5164047
+        ]
+      },
+      "id": "node/3672698792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4185944997",
+        "amenity": "police",
+        "name": "Dirección de Transporte y Seguridad Vial El Alto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1642563,
+          -16.5026626
+        ]
+      },
+      "id": "node/4185944997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4383713102",
+        "addr:street": "Calle 3",
+        "amenity": "police",
+        "name": "Fuerza Especial de Lucha Contra el Narcotráfico (FELCN)",
+        "operator": "Policia Nacional de Bolivia (PNB)",
+        "phone": "22410047",
+        "website": "https://www.felcn.gob.bo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.210263,
+          -16.4928884
+        ]
+      },
+      "id": "node/4383713102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465023198",
+        "amenity": "police",
+        "name": "Av. Unión",
+        "name:es": "Av. Unión"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.182525,
+          -16.6136764
+        ]
+      },
+      "id": "node/4465023198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465023292",
+        "amenity": "police",
+        "name": "Av. Simón Bolívar",
+        "name:es": "Av. Simón Bolívar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1774611,
+          -16.6078408
+        ]
+      },
+      "id": "node/4465023292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4469977589",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Raul Salmón",
+        "amenity": "police",
+        "name": "FELCC El Alto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1612253,
+          -16.5063462
+        ]
+      },
+      "id": "node/4469977589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4469985790",
+        "addr:street": "Avenida Rodolfo Palenque",
+        "amenity": "police",
+        "name": "Módulo Policial 12 de Octubre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1633607,
+          -16.513431
+        ]
+      },
+      "id": "node/4469985790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4535969491",
+        "addr:street": "Avenida Arapata",
+        "amenity": "police",
+        "name": "Estacion Avenida Arapata",
+        "operator": "Policia Nacional de Bolivia (PNB)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1799786,
+          -16.4692694
+        ]
+      },
+      "id": "node/4535969491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4535969492",
+        "amenity": "police",
+        "name": "Huatajata Av.",
+        "name:en": "Huatajata Av.",
+        "name:es": "Huatajata Av."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1803875,
+          -16.4675868
+        ]
+      },
+      "id": "node/4535969492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4630872740",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1888466,
+          -16.5011728
+        ]
+      },
+      "id": "node/4630872740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4682722120",
+        "amenity": "police",
+        "name": "Modulo Policial Horizontes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1919867,
+          -16.548504
+        ]
+      },
+      "id": "node/4682722120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4710940319",
+        "amenity": "police",
+        "name": "Modulo Policial Cupilupaca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1942331,
+          -16.5492028
+        ]
+      },
+      "id": "node/4710940319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4715751110",
+        "addr:city": "El Alto",
+        "addr:street": "Calle Bartolina Sisa",
+        "amenity": "police",
+        "name": "Estacion Policia Vecinal 4",
+        "operator": "Policía Boliviana",
+        "operator:wikidata": "Q3065571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2153876,
+          -16.4785078
+        ]
+      },
+      "id": "node/4715751110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4771412822",
+        "addr:street": "Avenida Heroes del Km 7",
+        "amenity": "police",
+        "name": "Fuerza Especial de Lucha Contra la Violencia (FELCV)",
+        "operator": "Policía Boliviana",
+        "operator:wikidata": "Q3065571",
+        "short_name": "FELCV",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1647434,
+          -16.5061328
+        ]
+      },
+      "id": "node/4771412822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793610321",
+        "addr:street": "Avenida Panorámica",
+        "amenity": "police",
+        "name": "Módulo Plan 50B",
+        "name:es": "Módulo Plan 50B",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1456627,
+          -16.5291829
+        ]
+      },
+      "id": "node/4793610321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4874518646",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Héroes del Kilómetro 7",
+        "amenity": "police",
+        "level": "0",
+        "name": "Policía Boliviana",
+        "opening_hours": "24/7",
+        "operator": "Policía Boliviana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1700003,
+          -16.5093001
+        ]
+      },
+      "id": "node/4874518646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4945881521",
+        "addr:street": "V. de Villalba",
+        "amenity": "police",
+        "check_date": "2024-06-08",
+        "name": "Módulo Policial Plan 405",
+        "name:es": "Módulo Policial Plan 405",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1544137,
+          -16.523641
+        ]
+      },
+      "id": "node/4945881521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4986853021",
+        "amenity": "police",
+        "name": "Módulo Policial Tejada Alpacoma",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1489577,
+          -16.5350345
+        ]
+      },
+      "id": "node/4986853021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5136381524",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "Urbanizacion 27 de Mayo",
+        "addr:street": "Héroes del Chaco",
+        "amenity": "police",
+        "name": "Estacion Policial",
+        "opening_hours": "24/7",
+        "operator": "Policía Boliviana",
+        "operator:wikidata": "Q3065571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1871323,
+          -16.6006534
+        ]
+      },
+      "id": "node/5136381524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5320738367",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Litoral",
+        "amenity": "police",
+        "name": "Módulo Policial San Luis Pampa",
+        "operator": "Policia Boliviana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2048521,
+          -16.5381934
+        ]
+      },
+      "id": "node/5320738367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5545476528",
+        "amenity": "police",
+        "name": "Dirección de Tránsito, Transparencia y Seguridad vial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1671206,
+          -16.5103455
+        ]
+      },
+      "id": "node/5545476528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6203249987",
+        "addr:street": "Calle Hermano E. Morales",
+        "amenity": "police",
+        "name": "Dirección de Antecedentes Policiales",
+        "operator": "Policia Boliviana",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1519014,
+          -16.5284638
+        ]
+      },
+      "id": "node/6203249987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6203249988",
+        "addr:street": "Calle 27 B",
+        "amenity": "police",
+        "name": "UTOP El Alto",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1529247,
+          -16.5283805
+        ]
+      },
+      "id": "node/6203249988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6381277193",
+        "addr:street": "Calle Camilo Torres",
+        "amenity": "police",
+        "name": "Módulo Policial San Pablo",
+        "operator": "Policia Nacional de Bolivia (PNB)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1924162,
+          -16.5258731
+        ]
+      },
+      "id": "node/6381277193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6382325988",
+        "amenity": "police",
+        "name": "Módulo Policial No 8 Pacajes - Caluyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1925184,
+          -16.5317282
+        ]
+      },
+      "id": "node/6382325988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6383657203",
+        "addr:city": "El Alto",
+        "amenity": "police",
+        "name": "Módulo Policial 3 de Mayo",
+        "opening_hours": "24/7",
+        "operator": "Policia Nacional de Bolivia (PNB)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2133329,
+          -16.5483774
+        ]
+      },
+      "id": "node/6383657203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6389618686",
+        "amenity": "police",
+        "name": "Módulo Policial Ballivian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1764311,
+          -16.4899197
+        ]
+      },
+      "id": "node/6389618686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6397242086",
+        "amenity": "police",
+        "name": "Módulo Policial Villa Dolores F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1870979,
+          -16.5262227
+        ]
+      },
+      "id": "node/6397242086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6398527486",
+        "amenity": "police",
+        "name": "Módulo Policial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1996489,
+          -16.5365858
+        ]
+      },
+      "id": "node/6398527486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6404636086",
+        "addr:city": "El Alto",
+        "amenity": "police",
+        "name": "Estación Policial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.216512,
+          -16.5136309
+        ]
+      },
+      "id": "node/6404636086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6502367819",
+        "amenity": "police",
+        "name": "Policía Boliviana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1904761,
+          -16.4869759
+        ]
+      },
+      "id": "node/6502367819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6754442478",
+        "amenity": "police",
+        "name": "Módulo Policial VillaPrimavera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1957289,
+          -16.5368638
+        ]
+      },
+      "id": "node/6754442478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7015981895",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Calle 27 B",
+        "amenity": "police",
+        "emergency_telephone_code": "800142029",
+        "name": "Distrito Policial No 3",
+        "operator": "Policia Boliviana. Comando Regional de El Alto",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1521675,
+          -16.5287581
+        ]
+      },
+      "id": "node/7015981895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7100679505",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1572697,
+          -16.5207092
+        ]
+      },
+      "id": "node/7100679505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7412866785",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Tiahuanacu",
+        "amenity": "police",
+        "name": "Módulo Policial 12 de Octubre",
+        "operator": "Policía Bolivana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1660883,
+          -16.5199798
+        ]
+      },
+      "id": "node/7412866785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7555062902",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Avenida José Agustín",
+        "amenity": "police",
+        "name": "Seguridad",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1515407,
+          -16.5307485
+        ]
+      },
+      "id": "node/7555062902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7650837916",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Calle Placido Molina",
+        "amenity": "police",
+        "name": "FELCC El Alto",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1543154,
+          -16.5273313
+        ]
+      },
+      "id": "node/7650837916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8600811953",
+        "addr:city": "El Alto",
+        "addr:street": "Aeropuerto Internacional El Alto",
+        "amenity": "police",
+        "name": "Modulo PNB",
+        "operator": "Policia Nacional Boliviana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1767781,
+          -16.5086078
+        ]
+      },
+      "id": "node/8600811953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9041770324",
+        "amenity": "police",
+        "name": "Policia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1545725,
+          -16.5403174
+        ]
+      },
+      "id": "node/9041770324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9962869788",
+        "amenity": "police",
+        "name": "Romero Pampa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2073255,
+          -16.5438231
+        ]
+      },
+      "id": "node/9962869788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13659390450",
+        "addr:city": "El Alto",
+        "addr:housename": "DIPROVE",
+        "addr:neighbourhood": "Alto Lima 1a Sección",
+        "addr:street": "Calle Tarija y Avenida Eduardo Avaroa",
+        "amenity": "police",
+        "name": "DIPROVE",
+        "opening_hours": "24/7",
+        "operator": "Policía Nacional de Bolivia",
+        "operator:short": "PNB",
+        "operator:wikidata": "Q3065571"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1702448,
+          -16.4776829
+        ]
+      },
+      "id": "node/13659390450"
+    }
+  ]
+}

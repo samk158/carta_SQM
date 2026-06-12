@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-07T20:43:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/872738946",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Costanera",
+        "amenity": "fire_station",
+        "name": "Estación de Bomberos El Alto",
+        "operator": "Policía Boliviana",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2230033,
+          -16.5185302
+        ]
+      },
+      "id": "way/872738946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/925757336",
+        "addr:city": "Rincón de Los Sauces",
+        "addr:housenumber": "1050",
+        "addr:postcode": "Q8319",
+        "addr:street": "Misiones",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "Bomberos Voluntarios de Rincón de los Sauces",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9241729,
+          -37.396425
+        ]
+      },
+      "id": "way/925757336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4732269823",
+        "amenity": "fire_station",
+        "check_date": "2024-05-20",
+        "name": "SAR BOLIVIA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1529152,
+          -16.5246034
+        ]
+      },
+      "id": "node/4732269823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7205357227",
+        "addr:city": "El Alto",
+        "amenity": "fire_station",
+        "name": "Bomberos Aeronaúticos",
+        "operator": "Navegación Aérea y Aeropuertos Bolivianos",
+        "operator:short": "NAABOL",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.180199,
+          -16.5084534
+        ]
+      },
+      "id": "node/7205357227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10894817750",
+        "addr:street": "Avenida Panorámica",
+        "amenity": "fire_station",
+        "name": "Bomberos SAR Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1485256,
+          -16.5216128
+        ]
+      },
+      "id": "node/10894817750"
+    }
+  ]
+}

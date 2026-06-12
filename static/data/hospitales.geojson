@@ -1,0 +1,3213 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-07T20:42:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292082494",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Clinica San Sebastian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2081275,
+          -16.5188715
+        ]
+      },
+      "id": "way/292082494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437867777",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Ladislao Cabrera",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "Hospital Municipal Modelo Corea",
+        "phone": "2851413",
+        "source": "Reconocimiento cartográfico por KG 2016.",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.200383,
+          -16.5461554
+        ]
+      },
+      "id": "way/437867777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/440229801",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Clinica Bolivia",
+        "opening_hours": "Mo-Sa 00:00-23:57",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1954776,
+          -16.5302772
+        ]
+      },
+      "id": "way/440229801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/440231907",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "6",
+        "name": "Clínica Divino Señor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2074894,
+          -16.5193877
+        ]
+      },
+      "id": "way/440231907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/441528226",
+        "amenity": "clinic",
+        "building": "yes",
+        "check_date": "2024-12-23",
+        "name": "Centro de Salud San Pedro",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.195766,
+          -16.5458649
+        ]
+      },
+      "id": "way/441528226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/442267695",
+        "addr:housenumber": "44",
+        "addr:street": "Avenida Cívica",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Santa Rosa",
+        "phone": "+591 77566221",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1647191,
+          -16.5369283
+        ]
+      },
+      "id": "way/442267695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/446430131",
+        "amenity": "hospital",
+        "name": "Clínica Villa El Carmen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2142781,
+          -16.4962415
+        ]
+      },
+      "id": "way/446430131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/449116935",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "Villa Merced G",
+        "amenity": "clinic",
+        "barrier": "wall",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Mercedes G",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2042431,
+          -16.5672153
+        ]
+      },
+      "id": "way/449116935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/450675551",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Satélite",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "contact:phone": "+591-7057656",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Santiago I",
+        "operator": "GAMEA",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1599231,
+          -16.5192305
+        ]
+      },
+      "id": "way/450675551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/462867663",
+        "addr:street": "Avenida Satélite",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Boliviano Holandés",
+        "place": "plot",
+        "wall": "dry_stone",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1536972,
+          -16.522362
+        ]
+      },
+      "id": "way/462867663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479824383",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "healthcare": "clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2109789,
+          -16.5240033
+        ]
+      },
+      "id": "way/479824383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479896275",
+        "addr:street": "Calle 3",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Corazón de Jesús",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1928213,
+          -16.5570972
+        ]
+      },
+      "id": "way/479896275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/485996812",
+        "addr:street": "Avenida Bolognesi",
+        "amenity": "hospital",
+        "name": "Centro Medico El Alto",
+        "operator": "EsSalud",
+        "phone": "+51 73 256069",
+        "ref:category": "Sin categoria",
+        "ref:microred": "0",
+        "ref:red": "0",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2195038,
+          -4.2680618
+        ]
+      },
+      "id": "way/485996812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/485996814",
+        "amenity": "clinic",
+        "name": "Centro Médico Belén",
+        "operator:type": "private",
+        "phone": "+51 73 256466",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2210189,
+          -4.2683951
+        ]
+      },
+      "id": "way/485996814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517790856",
+        "addr:street": "Calle 5",
+        "amenity": "hospital",
+        "check_date": "2024-03-08",
+        "healthcare:speciality": "general",
+        "name": "Hospital Corazón de Jesús",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.193036,
+          -16.5574721
+        ]
+      },
+      "id": "way/517790856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/526826166",
+        "addr:city": "El Alto",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "C.S. Chijni Chico",
+        "operator": "Ministerio de Salud y Deportes",
+        "operator:short": "MinSalud",
+        "operator:wikidata": "Q44225411",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2397558,
+          -16.5661316
+        ]
+      },
+      "id": "way/526826166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/529746852",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Centro de Salud Villa Tunari",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1936009,
+          -16.4959535
+        ]
+      },
+      "id": "way/529746852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/539148285",
+        "addr:street": "San Antonio",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2159847,
+          -16.5377783
+        ]
+      },
+      "id": "way/539148285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543542724",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1998399,
+          -16.537757
+        ]
+      },
+      "id": "way/543542724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/544995398",
+        "addr:city": "El Alto",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Juan Maria",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1666271,
+          -16.4788404
+        ]
+      },
+      "id": "way/544995398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/546895476",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1971231,
+          -16.5295841
+        ]
+      },
+      "id": "way/546895476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/546899453",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1577091,
+          -16.5361925
+        ]
+      },
+      "id": "way/546899453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/653366498",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida 16 de Julio",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;dentistry;emergency;ophthalmology;community",
+        "name": "Clínica Santa Maria de los Angeles",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1769962,
+          -16.4942651
+        ]
+      },
+      "id": "way/653366498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/656838983",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1875563,
+          -16.5443211
+        ]
+      },
+      "id": "way/656838983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/657041343",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Juan Pablo II",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Del Norte",
+        "phone": "2864070",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2043391,
+          -16.4894986
+        ]
+      },
+      "id": "way/657041343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/681499347",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Consultorio Medico",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2111389,
+          -16.5457142
+        ]
+      },
+      "id": "way/681499347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/681653411",
+        "addr:city": "El Alto",
+        "addr:street": "Calle Luis Taborga",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud 3 de Mayo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2116636,
+          -16.5508657
+        ]
+      },
+      "id": "way/681653411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/681705713",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "healthcare": "hospital",
+        "name": "Centro de Salud y Bienestar Santa Rosa de Lima",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.167528,
+          -16.4569405
+        ]
+      },
+      "id": "way/681705713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/681705714",
+        "amenity": "clinic",
+        "building": "hospital",
+        "healthcare": "centre",
+        "name": "Centro de Salud y Bienestar Santa Rosa de Lima",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1675255,
+          -16.4570274
+        ]
+      },
+      "id": "way/681705714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682298487",
+        "addr:city": "El Alto",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal Los Andes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1882051,
+          -16.4937183
+        ]
+      },
+      "id": "way/682298487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682308182",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Clínica Solidaria FIDES",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1770171,
+          -16.4910207
+        ]
+      },
+      "id": "way/682308182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/683466868",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Consultorio Médico Vecinal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2104057,
+          -16.5297646
+        ]
+      },
+      "id": "way/683466868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/783186841",
+        "amenity": "hospital",
+        "check_date": "2024-03-03",
+        "healthcare": "hospital",
+        "name": "Banco de Sangre",
+        "place": "plot",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1518991,
+          -16.5254605
+        ]
+      },
+      "id": "way/783186841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/883151107",
+        "addr:housenumber": "1002",
+        "addr:postcode": "72000",
+        "addr:street": "Calle 20 Oriente",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Cruz Roja Mexicana",
+        "opening_hours": "24/7",
+        "operator": "Cruz Roja",
+        "operator:type": "ngo",
+        "operator:wikidata": "Q7178",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1878722,
+          19.0481794
+        ]
+      },
+      "id": "way/883151107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058983274",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2289474,
+          -16.5011467
+        ]
+      },
+      "id": "way/1058983274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1117714629",
+        "addr:city": "EL Alto",
+        "addr:neighbourhood": "Cosmos 79",
+        "addr:street": "Avenida Caquingora",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital del Sur",
+        "operator": "Gobierno Autónomo Municipal de El Alto",
+        "operator:short": "GAMEA",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2233806,
+          -16.5261846
+        ]
+      },
+      "id": "way/1117714629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1324579606",
+        "addr:city": "El Alto",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud San Roque",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2710642,
+          -16.4758046
+        ]
+      },
+      "id": "way/1324579606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1483946887",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Luciano Castillo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2200597,
+          -4.2616642
+        ]
+      },
+      "id": "way/1483946887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1490641820",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1789538,
+          -16.6089297
+        ]
+      },
+      "id": "way/1490641820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2659812524",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Pro Salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.208736,
+          -16.4937429
+        ]
+      },
+      "id": "node/2659812524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3869835484",
+        "addr:city": "El Alto",
+        "addr:street": "Calle Eduardo Carranza",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud y Bienestar Santa Rosa Lima"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1674861,
+          -16.4570596
+        ]
+      },
+      "id": "node/3869835484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4054059110",
+        "addr:city": "El Alto",
+        "amenity": "hospital",
+        "name": "Luis Espinal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1985592,
+          -16.5168577
+        ]
+      },
+      "id": "node/4054059110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4233956892",
+        "amenity": "clinic",
+        "name": "JC Prado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2403523,
+          -16.5554751
+        ]
+      },
+      "id": "node/4233956892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4236628189",
+        "addr:street": "Luis Torres",
+        "amenity": "clinic",
+        "name": "CIES",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1707822,
+          -16.4979897
+        ]
+      },
+      "id": "node/4236628189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4340203874",
+        "addr:housenumber": "3207",
+        "addr:street": "Avenida René Vargas",
+        "amenity": "clinic",
+        "name": "Clínica Solidaria FIDES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1769047,
+          -16.4908635
+        ]
+      },
+      "id": "node/4340203874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351350638",
+        "addr:street": "Avenida 6 de Marzo",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Medico Ecologia",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1633796,
+          -16.5063962
+        ]
+      },
+      "id": "node/4351350638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351350640",
+        "addr:street": "Avenida 6 de Marzo",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Medico De La Piel",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1634352,
+          -16.5067167
+        ]
+      },
+      "id": "node/4351350640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4351589502",
+        "addr:street": "Avenida 6 de Marzo",
+        "amenity": "clinic",
+        "check_date": "2025-02-27",
+        "healthcare": "clinic",
+        "healthcare:speciality": "ophthalmology",
+        "name": "Clinica de Ojos",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1651389,
+          -16.5117885
+        ]
+      },
+      "id": "node/4351589502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356475209",
+        "amenity": "clinic",
+        "name": "Centro de Salud Familiar",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1907851,
+          -16.5354134
+        ]
+      },
+      "id": "node/4356475209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356606666",
+        "addr:street": "Avenida Bolivia",
+        "amenity": "clinic",
+        "name": "Centro Medico y Ecografia",
+        "source": "Reconocimiento cartográfico por KG 2016."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1912953,
+          -16.5338009
+        ]
+      },
+      "id": "node/4356606666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357630114",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Avenida del Policía",
+        "amenity": "clinic",
+        "check_date": "2024-06-09",
+        "emergency": "no",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Hospital Endoven",
+        "phone": "800101049",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.148959,
+          -16.5277016
+        ]
+      },
+      "id": "node/4357630114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378105918",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1574603,
+          -16.5205186
+        ]
+      },
+      "id": "node/4378105918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379285465",
+        "amenity": "clinic",
+        "name": "Centro Medico Divino Jesus",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1607236,
+          -16.528115
+        ]
+      },
+      "id": "node/4379285465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379408167",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Médico Trinidad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1897728,
+          -16.5339981
+        ]
+      },
+      "id": "node/4379408167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379426853",
+        "amenity": "clinic",
+        "name": "Centro de Salud Avaroa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1856931,
+          -16.5295549
+        ]
+      },
+      "id": "node/4379426853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379487323",
+        "amenity": "clinic",
+        "name": "Centro Medico De Atención"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1907101,
+          -16.5340392
+        ]
+      },
+      "id": "node/4379487323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379632544",
+        "amenity": "clinic",
+        "name": "Clinica Dental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1803008,
+          -16.5236926
+        ]
+      },
+      "id": "node/4379632544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379696831",
+        "amenity": "clinic",
+        "name": "Consultorio Dental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1916447,
+          -16.5334155
+        ]
+      },
+      "id": "node/4379696831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379702722",
+        "amenity": "clinic",
+        "name": "Clínica Dental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1938758,
+          -16.5313282
+        ]
+      },
+      "id": "node/4379702722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379758827",
+        "amenity": "clinic",
+        "name": "Clinica Dental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2040393,
+          -16.5218569
+        ]
+      },
+      "id": "node/4379758827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4379784759",
+        "amenity": "clinic",
+        "name": "Centro De Fisioterapia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2084111,
+          -16.5185624
+        ]
+      },
+      "id": "node/4379784759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4381196640",
+        "amenity": "clinic",
+        "name": "Consultorio Medico San Marcos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2156037,
+          -16.5335516
+        ]
+      },
+      "id": "node/4381196640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4381285477",
+        "amenity": "clinic",
+        "name": "Urgencia Medica Senor De La Cruz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2009887,
+          -16.5255941
+        ]
+      },
+      "id": "node/4381285477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4381285487",
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1993158,
+          -16.5248542
+        ]
+      },
+      "id": "node/4381285487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4385321308",
+        "amenity": "hospital",
+        "name": "Centro de Salud Jesús Obrero",
+        "name:es": "Centro de Salud Jesús Obrero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.197049,
+          -16.5295345
+        ]
+      },
+      "id": "node/4385321308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4387441908",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud 12 de Octubre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1661349,
+          -16.5203155
+        ]
+      },
+      "id": "node/4387441908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4388361181",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1563531,
+          -16.5145311
+        ]
+      },
+      "id": "node/4388361181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4388361182",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1565957,
+          -16.5144974
+        ]
+      },
+      "id": "node/4388361182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390120214",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Medico",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.159507,
+          -16.5092355
+        ]
+      },
+      "id": "node/4390120214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390131279",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Consultorio Medico Gabriel",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1598937,
+          -16.5085691
+        ]
+      },
+      "id": "node/4390131279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390131281",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Consultorio Medico Gabriel",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1599751,
+          -16.5083717
+        ]
+      },
+      "id": "node/4390131281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390165075",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Consultorio Medico",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1586283,
+          -16.509414
+        ]
+      },
+      "id": "node/4390165075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390219653",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Consultorio Medico De Pediatria",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1606591,
+          -16.5073093
+        ]
+      },
+      "id": "node/4390219653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390271798",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica Dental",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1593957,
+          -16.5102296
+        ]
+      },
+      "id": "node/4390271798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390299536",
+        "amenity": "clinic",
+        "healthcare": "dentist",
+        "name": "Consultorio Dental",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1592786,
+          -16.5091954
+        ]
+      },
+      "id": "node/4390299536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390393754",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1608321,
+          -16.506115
+        ]
+      },
+      "id": "node/4390393754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390393755",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1608363,
+          -16.5060648
+        ]
+      },
+      "id": "node/4390393755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390393757",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1608474,
+          -16.505988
+        ]
+      },
+      "id": "node/4390393757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390393758",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Medico Universal",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1608634,
+          -16.5059573
+        ]
+      },
+      "id": "node/4390393758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390530745",
+        "amenity": "clinic",
+        "name": "Hospicio",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1743261,
+          -16.4970032
+        ]
+      },
+      "id": "node/4390530745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4390749850",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ecografia",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.16154,
+          -16.504086
+        ]
+      },
+      "id": "node/4390749850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4392070369",
+        "amenity": "clinic",
+        "name": "Clinica De Estetica Dental",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1743618,
+          -16.4983841
+        ]
+      },
+      "id": "node/4392070369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4392070375",
+        "addr:street": "Avenida Alfonso Ugarte",
+        "amenity": "clinic",
+        "name": "Clinica Farmacia Fray Martin",
+        "phone": "2840456",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1742826,
+          -16.4980565
+        ]
+      },
+      "id": "node/4392070375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4392392209",
+        "amenity": "clinic",
+        "name": "Fisiterapia",
+        "name:es": "Fisiterapia Nestor Laura",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2069001,
+          -16.4904125
+        ]
+      },
+      "id": "node/4392392209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4392392210",
+        "amenity": "clinic",
+        "name": "Clinica Cruz Azul",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2072533,
+          -16.49034
+        ]
+      },
+      "id": "node/4392392210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4392597788",
+        "amenity": "clinic",
+        "name": "Centro Medico",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2076079,
+          -16.4897643
+        ]
+      },
+      "id": "node/4392597788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4392785681",
+        "amenity": "clinic",
+        "name": "Centro Medico De Especialidades",
+        "source": "Actualizaciones en Bolivia. Reconocimiento cartográfico por KG 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1915519,
+          -16.5491721
+        ]
+      },
+      "id": "node/4392785681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4423203059",
+        "addr:housenumber": "1281",
+        "addr:street": "Avenida Diego de Portugal",
+        "amenity": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Boliviano Holandés",
+        "phone": "+591 2 2818090",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.153615,
+          -16.5223957
+        ]
+      },
+      "id": "node/4423203059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444274490",
+        "amenity": "hospital",
+        "name": "CS German Busch",
+        "note": "Centro de Salud Nivel 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1830539,
+          -16.4706612
+        ]
+      },
+      "id": "node/4444274490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444299889",
+        "amenity": "hospital",
+        "check_date": "2026-01-13",
+        "name": "Centro de Salud Huayna Potosi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1917989,
+          -16.4794998
+        ]
+      },
+      "id": "node/4444299889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444300289",
+        "amenity": "hospital",
+        "name": "Centro de Salu dLotes y Servicios",
+        "name:es": "Centro de Salud Lotes y Servicios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2142668,
+          -16.4963174
+        ]
+      },
+      "id": "node/4444300289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4445989991",
+        "amenity": "hospital",
+        "name": "Centro de Salud Avaroa",
+        "name:es": "Centro de Salud Avaroa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1858568,
+          -16.5294672
+        ]
+      },
+      "id": "node/4445989991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446197789",
+        "amenity": "hospital",
+        "name": "Centro de Salud 1ro de Mayo",
+        "name:es": "Centro de Salud 1ro de Mayo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1998124,
+          -16.5377662
+        ]
+      },
+      "id": "node/4446197789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446197797",
+        "amenity": "hospital",
+        "name": "Centro de Salud Nuevos Horizontes",
+        "name:es": "Centro de Salud Nuevos Horizontes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1874976,
+          -16.5443142
+        ]
+      },
+      "id": "node/4446197797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4449175501",
+        "amenity": "clinic",
+        "name": "Centro de Salud SAFCI + Mi Salud",
+        "name:es": "Centro de Salud SAFCI + Mi Salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1742207,
+          -16.5457298
+        ]
+      },
+      "id": "node/4449175501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4449189098",
+        "addr:street": "Calle 25",
+        "amenity": "clinic",
+        "name": "Centro de Salud Rosas Pampa",
+        "phone": "+59171263603"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1721512,
+          -16.5421203
+        ]
+      },
+      "id": "node/4449189098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4449226091",
+        "amenity": "clinic",
+        "name": "Centro de Salud Anexo Rosas Pampa",
+        "name:es": "Centro de Salud Anexo Rosas Pampa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.165975,
+          -16.5444561
+        ]
+      },
+      "id": "node/4449226091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4449435289",
+        "addr:street": "Calle Alfredo Alexander",
+        "amenity": "clinic",
+        "name": "Centro de Salud Villa Exaltación",
+        "name:es": "Centro de Salud Villa Exaltación",
+        "phone": "+59168078131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1576704,
+          -16.5362146
+        ]
+      },
+      "id": "node/4449435289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4451786897",
+        "addr:street": "Calle 3",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Maria Madre de Dios",
+        "phone": "+59175226711"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.158555,
+          -16.5076379
+        ]
+      },
+      "id": "node/4451786897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4451896092",
+        "amenity": "clinic",
+        "name": "Centro de Salud Boliviano Japones"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1859835,
+          -16.5844352
+        ]
+      },
+      "id": "node/4451896092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4452040490",
+        "amenity": "clinic",
+        "name": "Centro de Salud Atipiris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1809685,
+          -16.590176
+        ]
+      },
+      "id": "node/4452040490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4470023989",
+        "addr:street": "Calle 8",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital de Irán"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1603,
+          -16.5136492
+        ]
+      },
+      "id": "node/4470023989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4564028109",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ecografía",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1513911,
+          -16.5175699
+        ]
+      },
+      "id": "node/4564028109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4586231878",
+        "amenity": "hospital",
+        "name": "Hospital Korea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2004144,
+          -16.5461515
+        ]
+      },
+      "id": "node/4586231878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4610105096",
+        "amenity": "hospital",
+        "description": "Hospital de administración municipal atendido por médicos cubanos",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Hospital Chacaltaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1732094,
+          -16.4851773
+        ]
+      },
+      "id": "node/4610105096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4741784122",
+        "amenity": "hospital",
+        "name": "Forense Fiscalía de El Alto.",
+        "name:es": "Forense Fiscalía de El Alto."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.187711,
+          -16.4898131
+        ]
+      },
+      "id": "node/4741784122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4745636321",
+        "amenity": "hospital",
+        "name": "Centro de Salud Villa Adela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2120816,
+          -16.5227098
+        ]
+      },
+      "id": "node/4745636321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4748945625",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "San Juan Kenko",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud San Juan Kenko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1930728,
+          -16.5667855
+        ]
+      },
+      "id": "node/4748945625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4771270132",
+        "addr:street": "Calle Plaza Libertad",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Primeros Auxilios",
+        "opening_hours": "Mo-Su,PH 06:00-11:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1736327,
+          -16.4947389
+        ]
+      },
+      "id": "node/4771270132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4844880067",
+        "addr:full": "Barrio Plomo",
+        "addr:housenumber": "390",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Simedic Diagnóstica",
+        "operator": "Ministerio de Salud del Perú",
+        "operator:short": "MINSA",
+        "operator:type": "government",
+        "operator:wikidata": "Q3065012",
+        "pe:minsa:categoria": "I-2",
+        "pe:minsa:codigo": "12010",
+        "phone": "+51 73 256506",
+        "source": "www.minsa.gob.pe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2197781,
+          -4.262711
+        ]
+      },
+      "id": "node/4844880067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4922529021",
+        "addr:street": "Avenida Juan Pablo II",
+        "amenity": "clinic",
+        "name": "PROSALUD 16 de Julio",
+        "name:es": "PROSALUD 16 de Julio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1711319,
+          -16.5011825
+        ]
+      },
+      "id": "node/4922529021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4957050821",
+        "addr:city": "Ciudad Satélite",
+        "addr:housenumber": "624",
+        "addr:street": "Calle Nemecio Nuñez del Prado",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "neuropsychiatry",
+        "name": "Consultorio Psicológico Intensamente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1508626,
+          -16.5179993
+        ]
+      },
+      "id": "node/4957050821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5006121427",
+        "addr:street": "Miguel Abadía y Méndez",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Villa Yunguyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2191822,
+          -16.4922815
+        ]
+      },
+      "id": "node/5006121427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5092052821",
+        "addr:city": "El Alto",
+        "addr:housenumber": "250",
+        "addr:postcode": "123",
+        "addr:street": "Avenida La Paz",
+        "amenity": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro de Especialidades Medicas del Norte",
+        "opening_hours": "Mo-Sa 00:00-24:00",
+        "operator": "privado",
+        "operator:type": "private",
+        "phone": "+591-72082999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1846285,
+          -16.4970376
+        ]
+      },
+      "id": "node/5092052821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5203434724",
+        "amenity": "clinic",
+        "name": "Clínica Santo Tomas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1839441,
+          -16.4777795
+        ]
+      },
+      "id": "node/5203434724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5203434725",
+        "addr:city": "El Alto",
+        "addr:street": "Calle 10",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro Medico Noruego Bolivariano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2111296,
+          -16.4959421
+        ]
+      },
+      "id": "node/5203434725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5203434822",
+        "addr:city": "El Alto",
+        "addr:street": "Calle 9",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro Medico Noruego"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2119268,
+          -16.4959508
+        ]
+      },
+      "id": "node/5203434822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5215244561",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "Villa Adela",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CIMFA Policlínico Villa Adela - CNS",
+        "operator": "Caja Nacional de Salud CNS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2109331,
+          -16.5239949
+        ]
+      },
+      "id": "node/5215244561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5216581821",
+        "addr:street": "San Antonio",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "C.S. San Jose Charapaqui"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2161078,
+          -16.5376807
+        ]
+      },
+      "id": "node/5216581821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5232647421",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.160158,
+          -16.5174721
+        ]
+      },
+      "id": "node/5232647421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5366477021",
+        "addr:housenumber": "234",
+        "addr:street": "Avenida Unión",
+        "amenity": "clinic",
+        "email": "info@ibro.com.bo",
+        "healthcare": "clinic",
+        "healthcare:speciality": "radiotherapy;oncology",
+        "name": "Instituto Boliviano de Radioterapia y Oncología IBRO",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "phone": "+591 2 2127117",
+        "website": "http://www.ibro.com.bo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1671907,
+          -16.5106781
+        ]
+      },
+      "id": "node/5366477021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5472736794",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Unión",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Caja de Salud de la Banca Privada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1660199,
+          -16.5113966
+        ]
+      },
+      "id": "node/5472736794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5661952443",
+        "addr:city": "La Paz - El Alto",
+        "addr:street": "Calle 135",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Medico Villa Bolivar",
+        "opening_hours": "24/7",
+        "operator": "Mari Ch."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1805402,
+          -16.5243552
+        ]
+      },
+      "id": "node/5661952443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5661952446",
+        "addr:city": "La Paz - El Alto",
+        "addr:street": "Calle 135",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud \"Prefectural\"",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "operator": "Mari Ch."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.180349,
+          -16.5248958
+        ]
+      },
+      "id": "node/5661952446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5700171723",
+        "addr:street": "Calle 6",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Fundación CEREFE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1578948,
+          -16.5102755
+        ]
+      },
+      "id": "node/5700171723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5851696288",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Cívica",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Socorro Médico",
+        "opening_hours:covid19": "Mo-Fr 08:00-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.154636,
+          -16.5152919
+        ]
+      },
+      "id": "node/5851696288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6036659186",
+        "amenity": "clinic",
+        "name": "Primeros Auxilios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1693056,
+          -16.522611
+        ]
+      },
+      "id": "node/6036659186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6210588785",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica Delizias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2092753,
+          -16.5503471
+        ]
+      },
+      "id": "node/6210588785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6213481786",
+        "amenity": "clinic",
+        "healthcare:speciality": "chiropractic",
+        "name": "Kolping - San Luis Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1985536,
+          -16.5263415
+        ]
+      },
+      "id": "node/6213481786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6276779385",
+        "amenity": "clinic",
+        "name": "Centro de salud COPACABANA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.186515,
+          -16.54025
+        ]
+      },
+      "id": "node/6276779385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6313240785",
+        "addr:street": "Calle Isaac Arias",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Médico Buen Samaritano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1588838,
+          -16.5190364
+        ]
+      },
+      "id": "node/6313240785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6382325985",
+        "amenity": "clinic",
+        "name": "Centro de Salud Calama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1986169,
+          -16.5227858
+        ]
+      },
+      "id": "node/6382325985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6566133989",
+        "addr:city": "Ciudad Satélite",
+        "addr:neighbourhood": "Ciudad Satélite",
+        "addr:street": "Avenida Satélite",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "plastic_surgery",
+        "level": "2",
+        "name": "NovaEra",
+        "note": "0.8",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1514716,
+          -16.523905
+        ]
+      },
+      "id": "node/6566133989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6682084252",
+        "addr:city": "Ciudad Satélite",
+        "addr:housenumber": "1337",
+        "addr:street": "Arturo Ballivian Otero",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica CEMO ESPERANZA",
+        "opening_hours": "Mo-Fr 09:00-17:00; Su off",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1516721,
+          -16.5243395
+        ]
+      },
+      "id": "node/6682084252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7086142685",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica Virgen de Copacabana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2089901,
+          -16.4965292
+        ]
+      },
+      "id": "node/7086142685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7235489585",
+        "addr:street": "Avenida Panorámica",
+        "amenity": "clinic",
+        "check_date": "2024-06-09",
+        "description": "Equipo calificador de discapacidad",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "level": "0",
+        "name": "Primeros Auxilios",
+        "opening_hours:signed": "no",
+        "operator": "MiTeleferico",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1498999,
+          -16.5192904
+        ]
+      },
+      "id": "node/7235489585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7464628695",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Calle 22 C",
+        "amenity": "clinic",
+        "email": "ciomedbolivia@gmail.com",
+        "healthcare": "clinic",
+        "name": "CIOMed Oxigenoterapia",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "phone": "+591 77717128",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1488031,
+          -16.5273166
+        ]
+      },
+      "id": "node/7464628695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495732991",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Avenida Satélite",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Varices Ulceras",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "opening_hours:covid19": "Mo-Fr 08:00-12:00",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1539079,
+          -16.5229208
+        ]
+      },
+      "id": "node/7495732991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7593486042",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ortopedia PROVIDENCIA",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1539532,
+          -16.5229058
+        ]
+      },
+      "id": "node/7593486042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7593676046",
+        "addr:city": "El Alto",
+        "addr:street": "Avenida Antofagasta",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica de Salud",
+        "opening_hours:covid19": "Mo-Fr 08:00-12:00",
+        "phone": "+591 77739693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1546394,
+          -16.5156407
+        ]
+      },
+      "id": "node/7593676046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7637065824",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Calle 27 B",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "EMERGENCIAS",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "opening_hours:covid19": "Mo-Fr 08:00-12:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1525265,
+          -16.5286471
+        ]
+      },
+      "id": "node/7637065824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7638866396",
+        "addr:street": "Avenida Ciudad Satélite",
+        "amenity": "clinic",
+        "description": "Ozonoterapia y medicina estética",
+        "healthcare": "clinic",
+        "name": "OZONODERM",
+        "phone": "+591 67071043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1583824,
+          -16.5206671
+        ]
+      },
+      "id": "node/7638866396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7653891269",
+        "amenity": "clinic",
+        "healthcare": "audiologist",
+        "name": "Audio",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "opening_hours:covid19": "Mo-Fr 08:00-12:00",
+        "phone": "+591 22814364",
+        "shop": "hearing_aids",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1555707,
+          -16.5220053
+        ]
+      },
+      "id": "node/7653891269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7967261244",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Calle 27 B",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Caja Nacional de Salud CNS",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1520809,
+          -16.5288251
+        ]
+      },
+      "id": "node/7967261244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294688489",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Avenida del Policía",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica de Fisioterapia",
+        "note": "0.7",
+        "phone": "+591 74070885",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1558662,
+          -16.5249222
+        ]
+      },
+      "id": "node/8294688489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8308621676",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Calle Mallco Mayta",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "image": "https://kartaview.org/details/3998685/57/track-info",
+        "name": "Consultorio Médico San Miguel",
+        "phone": "+591 73095109",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.150388,
+          -16.5215779
+        ]
+      },
+      "id": "node/8308621676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8343293131",
+        "addr:city": "El Alto",
+        "addr:housenumber": "4035",
+        "addr:neighbourhood": "Villa Dolores",
+        "addr:street": "Calle 11 Alfredo Jauregui",
+        "amenity": "hospital",
+        "description": "Líder en Atención de Salud en Bolivia Hospital de 3er Nivel de atención, especialidades médicas, internaciones , UTI adultos y  recién nacidos, Atención a pacientes de hemodiálisis SUS; Laboratorio, Radiología y Farmacia las 24 horas.",
+        "email": "central@hospitalagramont.com.bo",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;gynaecology;paediatrics;ophthalmology;cardiology;neurology;trauma;internal;clinical_laboratory;radiology;plastic_surgery;dermatology;urology",
+        "image": "http://www.hospitalagramont.com.bo/wp-content/gallery/imagenesha/HOSPITAL-AGRAMONT.jpg?i=2087879924",
+        "name": "HOSPITAL AGRAMONT - Central de Emergencias Nueva Esperanza S.A.",
+        "website": "https://www.hospitalagramont.com.bo/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1582361,
+          -16.5153813
+        ]
+      },
+      "id": "node/8343293131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8489454718",
+        "addr:street": "Calle 5",
+        "amenity": "clinic",
+        "name": "Rayos X"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1931003,
+          -16.5573493
+        ]
+      },
+      "id": "node/8489454718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8677731774",
+        "addr:city": "El Alto",
+        "addr:street": "José María Landaeta",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Médico Corazón de Jesús"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2058545,
+          -16.5052823
+        ]
+      },
+      "id": "node/8677731774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8777723542",
+        "addr:city": "El Alto",
+        "addr:housenumber": "100",
+        "addr:neighbourhood": "Ballivian",
+        "addr:street": "Avenida Panorámica",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "orthodontics;dentista;centro_dental;clinica_dental;odontopediatria;ortodoncia;dentist;dental_oral_maxillo_facial_surgery;dentistry;paediatric_dentistry;dental",
+        "image": "https://www.milsonrisas.com.bo/wp-content/uploads/2021/03/cropped-loco-centro-2.png",
+        "name": "Centro Odontologico Mil Sonrisas",
+        "operator": "Centro Odontologico Mil Sonrisas",
+        "operator:type": "private",
+        "phone": "59171562247",
+        "website": "https://www.milsonrisas.com.bo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1708414,
+          -16.4878949
+        ]
+      },
+      "id": "node/8777723542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8905781590",
+        "addr:city": "El Alto",
+        "addr:street": "Calle A. Borda",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Clinica Madrid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1912449,
+          -16.4919883
+        ]
+      },
+      "id": "node/8905781590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9742308720",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "QUIRODERMA",
+        "phone": "+591 69759887",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.155695,
+          -16.522198
+        ]
+      },
+      "id": "node/9742308720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9778208004",
+        "addr:city": "Ciudad Satélite",
+        "addr:street": "Avenida Escalona y Aguero",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica de várices",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1570366,
+          -16.5248635
+        ]
+      },
+      "id": "node/9778208004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9904822833",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "Tejada Rectangular",
+        "addr:street": "Calle Juan Matienzo",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Atención Integral MINKA",
+        "operator": "ENDAELALTO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1528184,
+          -16.5172186
+        ]
+      },
+      "id": "node/9904822833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9962709581",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "Cristal 1",
+        "addr:street": "Av. Wendy Calvert",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud Cristal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2022464,
+          -16.5952712
+        ]
+      },
+      "id": "node/9962709581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11065671971",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Consultorio Médico Vecinal",
+        "operator": "Plan 561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1500539,
+          -16.5241356
+        ]
+      },
+      "id": "node/11065671971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11117937383",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CONSULTORIO MÉDICO CMEDIC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.193715,
+          -16.4937971
+        ]
+      },
+      "id": "node/11117937383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409456692",
+        "addr:city": "El Alto",
+        "addr:street": "Calle María Josefa Mujía",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud San Martin",
+        "operator": "Alcadia",
+        "operator:type": "clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2245297,
+          -16.5645484
+        ]
+      },
+      "id": "node/11409456692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409472408",
+        "addr:city": "El Alto",
+        "addr:street": "Calle María Josefa Mujía",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dentist",
+        "name": "Dentista DentaZul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.223795,
+          -16.5631927
+        ]
+      },
+      "id": "node/11409472408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12086259830",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "Villa Jesús del Gran Poder",
+        "addr:street": "Calle 3",
+        "amenity": "hospital",
+        "emergency:phone": "800166888",
+        "healthcare": "hospital",
+        "name": "Hospital Corazón de Jesús",
+        "phone": "+591 2 22854070",
+        "phone:mobile": "+591 76757801"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1929833,
+          -16.557089
+        ]
+      },
+      "id": "node/12086259830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12366163663",
+        "addr:housenumber": "25",
+        "addr:neighbourhood": "Bolivar A",
+        "addr:street": "Calle Evadidos del Paraguay",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Policlínico de Especialidades PAISE - CNS",
+        "operator": "Caja Nacional de Salud CNS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1670625,
+          -16.5102559
+        ]
+      },
+      "id": "node/12366163663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12366204797",
+        "addr:city": "El Alto",
+        "addr:street": "Calle Jorge Carrasco",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Policonsultorio El Alto - CNS",
+        "operator": "Caja Nacional de Salud CNS",
+        "phone": "+591 2 229490"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.163959,
+          -16.5094128
+        ]
+      },
+      "id": "node/12366204797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12366256632",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "Villa Tunari",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CIMFA Villa Tunari - CNS",
+        "operator": "Caja Nacional de Salud CNS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1963327,
+          -16.4964547
+        ]
+      },
+      "id": "node/12366256632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13023737352",
+        "amenity": "clinic",
+        "check_date": "2025-07-25",
+        "description": "#mapeocholets",
+        "healthcare": "clinic",
+        "name": "Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1922506,
+          -16.5333258
+        ]
+      },
+      "id": "node/13023737352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13023737358",
+        "amenity": "clinic",
+        "check_date": "2025-07-25",
+        "description": "#mapeocholets",
+        "healthcare": "clinic",
+        "name": "Cejtro Médico Especializado Milagro De Vida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2011243,
+          -16.5252711
+        ]
+      },
+      "id": "node/13023737358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13650635151",
+        "addr:city": "El Alto",
+        "addr:neighbourhood": "Villa Dolores",
+        "addr:street": "Avenida Arica",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Villa Dolores"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.156348,
+          -16.5163464
+        ]
+      },
+      "id": "node/13650635151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13701363981",
+        "addr:city": "Ciudad Satélite",
+        "addr:neighbourhood": "Plan 561",
+        "addr:street": "Calle 16-Hermano E. Morales",
+        "amenity": "clinic",
+        "check_date": "2026-04-02",
+        "healthcare": "clinic",
+        "name": "Centro Médico Jimenez-MED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1498421,
+          -16.5241697
+        ]
+      },
+      "id": "node/13701363981"
+    }
+  ]
+}

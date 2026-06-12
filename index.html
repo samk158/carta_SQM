@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Centro de Monitoreo - El Alto</title>
+
+
+<link rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background:#f4f6f9;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.map-container{
+    width:95%;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+#map{
+    width:100%;
+    height:700px;
+    border-radius:12px;
+}
+
+.fa-marker{background:none;border:none;text-align:center;}
+.icono-camara{color:#0066ff;font-size:26px;}
+.icono-policia{color:#0033cc;font-size:26px;}
+.icono-hospital{color:red;font-size:26px;}
+.icono-bomberos{color:orange;font-size:26px;}
+.icono-terminal{color:green;font-size:26px;}
+.icono-salida{color:#6a00ff;font-size:26px;}
+
+.contenedor-camaras{
+    width:95%;
+    margin:30px auto;
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.camara-card{
+    width:350px;
+
+    background:white;
+    border-radius:15px;
+    padding:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.camara-card:hover{
+    transform:translateY(-5px);
+}
+
+.camara-card img{
+    width:100%;
+    height:250px;
+    object-fit:contain;
+}
+
+.camara-card h2{
+    text-align:center;
+    color:#003366;
+}
+
+.camara-card ul{
+    line-height:1.8;
+}
+
+.precio{
+    color:#2e7d32;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.total{
+    color:#d32f2f;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.dashboard-layout{
+display:grid;
+grid-template-columns:280px 1fr;
+gap:20px;
+width:95%;
+margin:20px auto;
+}
+
+.sidebar{
+background:#0f172a;
+color:white;
+padding:20px;
+border-radius:16px;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.sidebar h3{
+margin-top:0;
+}
+
+.sidebar label{
+display:block;
+margin:12px 0;
+}
+
+.map-container{
+margin:0 !important;
+width:100% !important;
+}
+
+body{
+background:#e9eef5 !important;
+font-family:Segoe UI,Arial,sans-serif !important;
+}
+
+table tr:nth-child(even){
+background:#f8fafc;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f7fa;
+    padding:30px;
+}
+
+.container{
+    max-width:1800px;
+    margin:auto;
+}
+
+.titulo{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.titulo h1{
+    color:#003366;
+    font-size:36px;
+}
+
+.titulo p{
+    color:#666;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    margin-bottom:40px;
+    overflow:hidden;
+}
+
+.card-header{
+    background:#003366;
+    color:white;
+    padding:20px;
+}
+
+.card-header h2{
+    font-size:24px;
+}
+
+.table-responsive{
+    overflow-x:auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#00509e;
+    color:white;
+}
+
+th{
+    padding:15px;
+    text-align:left;
+}
+
+td{
+    padding:14px;
+    border-bottom:1px solid #e0e0e0;
+}
+
+tr:hover{
+    background:#f5f9ff;
+}
+
+.numero{
+    text-align:center;
+    font-weight:bold;
+}
+
+.modelo{
+    color:#00509e;
+    font-weight:600;
+}
+
+.funcion{
+    min-width:450px;
+}
+
+.arquitectura{
+    max-width:1800px;
+    margin:60px auto;
+    text-align:center;
+}
+
+.arquitectura h2{
+    color:#003366;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.arquitectura-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.arquitectura-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.arquitectura-card:hover{
+    transform:translateY(-5px);
+}
+
+.arquitectura-card img{
+    width:100%;
+    height:350px;
+    object-fit:contain;
+    background:white;
+    padding:10px;
+}
+
+.arquitectura-card h3{
+    color:#003366;
+    padding:15px 15px 10px;
+}
+
+.arquitectura-card p{
+    padding:0 15px 20px;
+    color:#555;
+    line-height:1.6;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<header style="background:#003366;color:white;padding:25px;text-align:center;">
+<h1>SISTEMA INTELIGENTE DE VIDEOVIGILANCIA</h1>
+<h2>GOBIERNO AUTÓNOMO MUNICIPAL DE EL ALTO</h2>
+<p>Proyecto de Implementación de Cámaras Inteligentes con Reconocimiento Facial</p>
+
+</header>
+
+<button id="exportar"
+style="
+position:fixed;
+top:20px;
+right:20px;
+z-index:9999;
+background:#1976d2;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:8px;
+cursor:pointer;
+">
+Exportar Cámaras
+</button>
+
+
+<div class="dashboard-layout">
+<div class="sidebar">
+
+<h3>Capas</h3>
+
+<label>
+<input type="checkbox" id="chkCobertura">
+Cobertura Estratégica
+</label>
+
+<label>
+<input type="checkbox" id="chkCamaras">
+Cámaras
+</label>
+
+<label>
+<input type="checkbox" id="chkGuardadas">
+Cámaras Guardadas
+</label>
+
+<label>
+<input type="checkbox" id="chkPolicia">
+Policía
+</label>
+
+<label>
+<input type="checkbox" id="chkHospitales">
+Hospitales
+</label>
+
+<label>
+<input type="checkbox" id="chkBomberos">
+Bomberos
+</label>
+
+<label>
+<input type="checkbox" id="chkTerminales">
+Terminales
+</label>
+
+<label>
+<input type="checkbox" id="chkSalidas">
+Accesos
+</label>
+
+<label>
+    <input type="checkbox" id="chkCentroOperativo">
+    Centro Operativo
+</label>
+
+</div>
+
+<div class="map-container">
+
+
+<h2>Mapa Estratégico de Cobertura</h2>
+
+<div id="map"></div>
+
+</div></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="static/data/zonas_criticas.js"></script>
+<script src="static/data/centro_operaciones.js"></script>
+<script>
+
+var map = L.map('map');
+
+var iconoCamara=L.divIcon({html:'<i class="fa-solid fa-camera icono-camara"></i>',className:'fa-marker',iconSize:[30,30],iconAnchor:[15,15]});
+var iconoPolicia=L.divIcon({html:'<i class="fa-solid fa-shield-halved icono-policia"></i>',className:'fa-marker',iconSize:[30,30],iconAnchor:[15,15]});
+var iconoHospital=L.divIcon({html:'<i class="fa-solid fa-hospital icono-hospital"></i>',className:'fa-marker',iconSize:[30,30],iconAnchor:[15,15]});
+var iconoBomberos=L.divIcon({html:'<i class="fa-solid fa-fire-extinguisher icono-bomberos"></i>',className:'fa-marker',iconSize:[30,30],iconAnchor:[15,15]});
+var iconoTerminal=L.divIcon({html:'<i class="fa-solid fa-bus icono-terminal"></i>',className:'fa-marker',iconSize:[30,30],iconAnchor:[15,15]});
+var iconoSalida=L.divIcon({html:'<i class="fa-solid fa-location-dot icono-salida"></i>',className:'fa-marker',iconSize:[30,30],iconAnchor:[15,15]});
+
+L.tileLayer(
+    'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+        attribution: '© OpenStreetMap'
+    }
+).addTo(map); 
+
+// ======================
+// CAPAS
+// ======================
+
+var capaLimite;
+var capaRutas;
+
+var capaSalidas = L.layerGroup();
+var capaPolicia = L.layerGroup();
+var capaHospitales = L.layerGroup();
+var capaBomberos = L.layerGroup();
+var capaTerminales = L.layerGroup();
+
+var capaCamaras = L.layerGroup();
+var capaCobertura = L.layerGroup();
+
+var capaCentroOperativo = L.layerGroup();
+
+L.circle(
+    [centroOperativo.lat, centroOperativo.lng],
+    {
+        radius: 9500,            // 9.5 km
+        color: "#33cc33",
+        fillColor: "#33cc33",
+        fillOpacity: 0.15,
+        weight: 2
+    }
+)
+.bindPopup("<b>Centro Operativo</b><br>Radio: 9.5 km")
+.addTo(capaCentroOperativo);
+
+zonasSeguridad.forEach(function(zona){
+
+    L.circle(
+        [zona.lat, zona.lng],
+        {
+            radius: zona.radio,
+            color: zona.color,
+            fillColor: zona.color,
+            fillOpacity: 0.15,
+            weight: 2
+        }
+    )
+    .bindPopup(
+        "<b>" + zona.nombre + "</b><br>" +
+        "Radio: " + zona.radio + " m"
+    )
+    .addTo(capaCobertura);
+
+});
+
+// ======================
+// CAMARAS MANUALES
+// ======================
+
+var contador = 1;
+
+map.on('click', function(e) {
+
+    var lat = e.latlng.lat;
+    var lng = e.latlng.lng;
+
+    var marker = L.marker(
+        [lat, lng],
+        {
+            icon: iconoCamara,
+            draggable: true
+        }
+    ).addTo(capaCamaras);
+
+    var id = L.Util.stamp(marker);
+
+    marcadores[id] = marker;
+
+    marker.nombre = "Punto " + contador;
+
+    marker.bindPopup(
+        `
+        <b>${marker.nombre}</b><br>
+        Lat: ${lat}<br>
+        Lng: ${lng}<br><br>
+
+        <button onclick="editarPunto(${L.Util.stamp(marker)})">
+        Editar
+        </button>
+
+        <button onclick="eliminarPunto(${L.Util.stamp(marker)})">
+        Eliminar
+        </button>
+        `
+    );
+
+    contador++;
+
+});
+
+var capaCamarasGuardadas = L.layerGroup();
+
+fetch('static/data/camaras.geojson')
+.then(response => response.json())
+.then(data => {
+
+    L.geoJSON(data, {
+
+        pointToLayer: function(feature, latlng) {
+
+            return L.marker(latlng,{icon:iconoCamara});
+
+        },
+
+        onEachFeature: function(feature, layer) {
+
+            layer.bindPopup(
+                feature.properties.nombre || "Cámara"
+            );
+
+        }
+
+    }).addTo(capaCamarasGuardadas);
+
+});
+
+
+// ======================
+// LIMITE EL ALTO
+// ======================
+
+fetch('static/data/limitacion.geojson')
+.then(response => response.json())
+.then(data => {
+
+    capaLimite = L.geoJSON(data, {
+
+        style: {
+            color: 'red',
+            weight: 4,
+            fillColor: 'red',
+            fillOpacity: 0.10
+        }
+
+    }).addTo(map);
+
+    map.fitBounds(capaLimite.getBounds());
+
+});
+
+// ======================
+// RUTAS PRINCIPALES
+// ======================
+
+fetch('static/data/rutas_principales.geojson')
+.then(response => response.json())
+.then(data => {
+
+    capaRutas = L.geoJSON(data, {
+
+        style: {
+            color: '#0066ff',
+            weight: 5,
+            opacity: 0.9
+        }
+
+    }).addTo(map);
+
+});
+
+// ======================
+// SALIDAS
+// ======================
+
+fetch('static/data/salidas.geojson')
+.then(response => response.json())
+.then(data => {
+
+    L.geoJSON(data, {
+
+        pointToLayer: function(feature, latlng) {
+
+            return L.marker(latlng,{icon:iconoSalida});
+
+        },
+
+        onEachFeature: function(feature, layer) {
+
+            layer.bindPopup(
+                "📍 Acceso Principal #" +
+                feature.properties.id
+            );
+
+        }
+
+    }).addTo(capaSalidas);
+
+});
+
+// ======================
+// POLICIA
+// ======================
+
+fetch('static/data/modulos_policiales.geojson')
+.then(response => response.json())
+.then(data => {
+
+    L.geoJSON(data, {
+
+        pointToLayer: function(feature, latlng) {
+
+            return L.marker(latlng,{icon:iconoPolicia});
+
+        },
+
+        onEachFeature: function(feature, layer) {
+
+            var nombre =
+                feature.properties.name ||
+                "Módulo Policial";
+
+            layer.bindPopup(
+                "👮 " + nombre
+            );
+
+        }
+
+    }).addTo(capaPolicia);
+
+});
+
+// ======================
+// HOSPITALES
+// ======================
+
+fetch('static/data/hospitales.geojson')
+.then(response => response.json())
+.then(data => {
+
+    L.geoJSON(data, {
+
+        pointToLayer: function(feature, latlng) {
+
+            return L.marker(latlng,{icon:iconoHospital});
+
+        },
+
+        onEachFeature: function(feature, layer) {
+
+            var nombre =
+                feature.properties.name ||
+                "Hospital";
+
+            layer.bindPopup(
+                "🏥 " + nombre
+            );
+
+        }
+
+    }).addTo(capaHospitales);
+
+});
+
+// ======================
+// BOMBEROS
+// ======================
+
+fetch('static/data/bomberos.geojson')
+.then(response => response.json())
+.then(data => {
+
+    L.geoJSON(data, {
+
+        pointToLayer: function(feature, latlng) {
+
+            return L.marker(latlng,{icon:iconoBomberos});
+
+        },
+
+        onEachFeature: function(feature, layer) {
+
+            var nombre =
+                feature.properties.name ||
+                "Bomberos";
+
+            layer.bindPopup(
+                "🚒 " + nombre
+            );
+
+        }
+
+    }).addTo(capaBomberos);
+
+});
+
+// ======================
+// TERMINALES
+// ======================
+
+fetch('static/data/terminales.geojson')
+.then(response => response.json())
+.then(data => {
+
+    L.geoJSON(data, {
+
+        pointToLayer: function(feature, latlng) {
+
+            return L.marker(latlng,{icon:iconoTerminal});
+
+        },
+
+        onEachFeature: function(feature, layer) {
+
+            var nombre =
+                feature.properties.name ||
+                "Terminal";
+
+            layer.bindPopup(
+                "🚌 " + nombre
+            );
+
+        }
+
+    }).addTo(capaTerminales);
+
+});
+
+// ======================
+// AGREGAR CAPAS
+// ======================
+
+// ======================
+// CONTROL DE CAPAS
+// ======================
+var overlays = {
+
+    "📷 Cámaras": capaCamaras,
+    "📷 Cámaras Guardadas": capaCamarasGuardadas,
+    "📍 Accesos Principales": capaSalidas,
+    "👮 Policía": capaPolicia,
+    "🏥 Hospitales": capaHospitales,
+    "🚒 Bomberos": capaBomberos,
+    "🚌 Terminales": capaTerminales,
+    "🛡 Cobertura Seguridad": capaCobertura
+};
+
+
+document.getElementById('exportar')
+.addEventListener('click', function() {
+
+    var geojson = {
+        type: "FeatureCollection",
+        features: []
+    };
+
+    capaCamaras.eachLayer(function(layer) {
+
+        var p = layer.getLatLng();
+
+        geojson.features.push({
+            type: "Feature",
+            geometry: {
+                type: "Point",
+                coordinates: [
+                    p.lng,
+                    p.lat
+                ]
+            },
+            properties: {
+                nombre: layer.nombre || ""
+            }
+        });
+
+    });
+
+    const blob = new Blob(
+        [JSON.stringify(geojson, null, 2)],
+        { type: "application/json" }
+    );
+
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+
+    a.href = url;
+    a.download = "camaras.geojson";
+
+    document.body.appendChild(a);
+
+    a.click();
+
+    document.body.removeChild(a);
+
+    URL.revokeObjectURL(url);
+
+});
+
+var marcadores = {};
+
+function registrarMarcadores() {
+
+    capaCamaras.eachLayer(function(layer) {
+
+        marcadores[
+            L.Util.stamp(layer)
+        ] = layer;
+
+    });
+
+}
+
+function eliminarPunto(id) {
+
+    if(marcadores[id]) {
+
+        capaCamaras.removeLayer(
+            marcadores[id]
+        );
+
+        delete marcadores[id];
+    }
+
+}
+
+function editarPunto(id) {
+
+    if(!marcadores[id]) return;
+
+    let nuevoNombre = prompt(
+        "Nombre del punto:",
+        marcadores[id].nombre
+    );
+
+    if(nuevoNombre){
+
+        marcadores[id].nombre =
+            nuevoNombre;
+
+    }
+
+}
+
+function toggleLayer(checkId, layer){
+
+    document
+    .getElementById(checkId)
+    .addEventListener('change', function(){
+
+        if(this.checked){
+            map.addLayer(layer);
+        }else{
+            map.removeLayer(layer);
+        }
+
+    });
+
+}
+
+toggleLayer('chkCobertura', capaCobertura);
+toggleLayer('chkCamaras', capaCamaras);
+toggleLayer('chkGuardadas', capaCamarasGuardadas);
+toggleLayer('chkPolicia', capaPolicia);
+toggleLayer('chkHospitales', capaHospitales);
+toggleLayer('chkBomberos', capaBomberos);
+toggleLayer('chkTerminales', capaTerminales);
+toggleLayer('chkSalidas', capaSalidas);
+toggleLayer('chkCentroOperativo', capaCentroOperativo);
+</script>
+
+<section
+style="
+width:95%;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+">
+
+<h2>
+Resumen Ejecutivo
+</h2>
+
+<p>
+
+El proyecto contempla la implementación de
+1.535 cámaras inteligentes distribuidas
+estratégicamente en 22 zonas priorizadas
+del municipio de El Alto.
+
+Las zonas fueron clasificadas según
+nivel de riesgo, flujo peatonal,
+actividad comercial y densidad poblacional.
+
+</p>
+
+</section>
+
+<div
+style="
+width:95%;
+margin:auto;
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+margin-bottom:20px;
+">
+
+<div style="
+background:#d32f2f;
+color:white;
+padding:20px;
+width:220px;
+border-radius:12px;
+text-align:center;
+">
+<h1>850</h1>
+Nivel Crítico
+</div>
+
+<div style="
+background:#f57c00;
+color:white;
+padding:20px;
+width:220px;
+border-radius:12px;
+text-align:center;
+">
+<h1>450</h1>
+Nivel Alto
+</div>
+
+<div style="
+background:#fbc02d;
+padding:20px;
+width:220px;
+border-radius:12px;
+text-align:center;
+">
+<h1>235</h1>
+Nivel Medio
+</div>
+
+<div style="
+background:#1976d2;
+color:white;
+padding:20px;
+width:220px;
+border-radius:12px;
+text-align:center;
+">
+<h1>1535</h1>
+Total Cámaras
+</div>
+
+</div>
+
+<section
+style="
+width:95%;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+margin-bottom:30px;
+">
+
+<h2>
+Distribución de Cámaras
+</h2>
+
+<table
+style="
+width:100%;
+border-collapse:collapse;
+">
+
+<tr style="background:#003366;color:white;">
+<th>Zona</th>
+<th>Nivel</th>
+<th>Cámaras</th>
+</tr>
+
+<tr><td>La Ceja</td><td style="color:red;"><b>Crítico</b></td><td>180</td></tr>
+<tr><td>Pasarela del Arquitecto</td><td style="color:red;"><b>Crítico</b></td><td>60</td></tr>
+<tr><td>Feria 16 de Julio</td><td style="color:red;"><b>Crítico</b></td><td>170</td></tr>
+<tr><td>Villa Dolores / 12 de Octubre</td><td style="color:red;"><b>Crítico</b></td><td>140</td></tr>
+<tr><td>Río Seco (Ex Tranca)</td><td style="color:red;"><b>Crítico</b></td><td>120</td></tr>
+<tr><td>San Roque (Núcleo Central)</td><td style="color:red;"><b>Crítico</b></td><td>110</td></tr>
+<tr><td>Plaza Ballivián</td><td style="color:red;"><b>Crítico</b></td><td>80</td></tr>
+<tr><td>Cosmos 79</td><td style="color:red;"><b>Crítico</b></td><td>95</td></tr>
+<tr><td>Alto Lima</td><td style="color:red;"><b>Crítico</b></td><td>95</td></tr>
+<tr><td>Ciudad Satélite</td><td style="color:red;"><b>Crítico</b></td><td>85</td></tr>
+<tr><td>San Roque Ex Tranca</td><td style="color:red;"><b>Crítico</b></td><td>90</td></tr>
+
+<tr><td>Senkata</td><td style="color:orange;"><b>Alto</b></td><td>110</td></tr>
+<tr><td>Ventilla</td><td style="color:orange;"><b>Alto</b></td><td>100</td></tr>
+<tr><td>16 de Julio Urbana</td><td style="color:orange;"><b>Alto</b></td><td>90</td></tr>
+<tr><td>Luis Espinal / Huayna Potosí</td><td style="color:orange;"><b>Alto</b></td><td>80</td></tr>
+<tr><td>Mercurio</td><td style="color:orange;"><b>Alto</b></td><td>75</td></tr>
+<tr><td>Villa Adela</td><td style="color:orange;"><b>Alto</b></td><td>75</td></tr>
+<tr><td>Villa Ballivián</td><td style="color:orange;"><b>Alto</b></td><td>65</td></tr>
+<tr><td>Río Seco Terminal</td><td style="color:orange;"><b>Alto</b></td><td>80</td></tr>
+<tr><td>Santiago II</td><td style="color:orange;"><b>Alto</b></td><td>70</td></tr>
+<tr><td>San Roque / Chijini Alto</td><td style="color:orange;"><b>Alto</b></td><td>70</td></tr>
+<tr><td>Ballivián Norte</td><td style="color:orange;"><b>Alto</b></td><td>60</td></tr>
+<tr><td>Cruce Villa Adela</td><td style="color:orange;"><b>Alto</b></td><td>75</td></tr>
+<tr><td>San Lorenzo / Sanzana</td><td style="color:orange;"><b>Alto</b></td><td>70</td></tr>
+
+<tr><td>Villa Bolívar A y D</td><td style="color:goldenrod;"><b>Medio</b></td><td>60</td></tr>
+<tr><td>Río Seco Extensión (Yunguyo)</td><td style="color:goldenrod;"><b>Medio</b></td><td>55</td></tr>
+<tr><td>Villa Esperanza (UPEA)</td><td style="color:goldenrod;"><b>Medio</b></td><td>50</td></tr>
+<tr><td>Villa Tunari</td><td style="color:goldenrod;"><b>Medio</b></td><td>45</td></tr>
+<tr><td>Bajo San José / Tejada Recta</td><td style="color:goldenrod;"><b>Medio</b></td><td>45</td></tr>
+<tr><td>Santa Rosa</td><td style="color:goldenrod;"><b>Medio</b></td><td>40</td></tr>
+<tr><td>Nuevos Horizontes</td><td style="color:goldenrod;"><b>Medio</b></td><td>40</td></tr>
+<tr><td>Plaza del Minero</td><td style="color:goldenrod;"><b>Medio</b></td><td>40</td></tr>
+<tr><td>Río Seco Ex Parada</td><td style="color:goldenrod;"><b>Medio</b></td><td>45</td></tr>
+<tr style="background:#ffebee;">
+<td><b>SUBTOTAL CRÍTICO</b></td>
+<td></td>
+<td><b>850</b></td>
+</tr>
+
+<tr style="background:#fff3e0;">
+<td><b>SUBTOTAL ALTO</b></td>
+<td></td>
+<td><b>450</b></td>
+</tr>
+
+<tr style="background:#fffde7;">
+<td><b>SUBTOTAL MEDIO</b></td>
+<td></td>
+<td><b>235</b></td>
+</tr>
+
+<tr style="background:#e3f2fd;">
+<td><b>TOTAL GENERAL</b></td>
+<td></td>
+<td><b>1535</b></td>
+</tr>
+
+</table>
+
+</section>
+
+<section class="contenedor-camaras">
+
+    <div class="camara-card">
+
+        <img src="img/camara.png" alt="SANCI SC-CA1058">
+
+        <h2>SANCI SC-CA1058</h2>
+
+        <p>
+            <b>Características:</b><br>
+            • Resolución 4K Ultra HD (8 MP)<br>
+            • Tecnología ColorVu para imagen a color 24/7<br>
+            • WDR 130 dB para contraluz extrema<br>
+            • Compresión H.265+ para optimización de ancho de banda y almacenamiento<br>
+            • Protección IP67 contra agua y polvo<br>
+            • Visión nocturna a color de alta calidad<br>
+            • Compatible con ONVIF, RTSP y VMS empresariales<br>
+            • Ideal para analítica avanzada mediante IA en servidores externos
+        </p>
+
+        <p>
+            <b>Precio Unitario:</b>
+            400 Bs
+        </p>
+
+        <p>
+            <b>1535 Cámaras:</b>
+            614.000 Bs
+        </p>
+
+    </div>
+
+
+    <div class="camara-card">
+
+        <img src="img/antena_control.png" alt="Antena Sectorial 60°">
+
+        <h2>Antena Sectorial 60°</h2>
+
+        <p>
+            <b>Características:</b><br>
+            • Cobertura sectorial de 60°<br>
+            • Recepción simultánea de múltiples nodos inalámbricos<br>
+            • Optimizada para redes de videovigilancia urbana<br>
+            • Alta capacidad para tráfico de video IP<br>
+            • Integración con radios base empresariales<br>
+            • Diseñada para operación continua 24/7<br>
+            • Instalación en torre principal del Centro de Operaciones
+        </p>
+
+        <p>
+            <b>Cantidad Requerida:</b>
+            6 Antenas
+        </p>
+
+        <p>
+            <b>Función:</b>
+            Recibir y concentrar el tráfico proveniente de los nodos distribuidos en toda la ciudad para su procesamiento en el Centro de Operaciones y Monitoreo.
+        </p>
+
+    </div>
+
+
+    <div class="camara-card">
+
+        <img src="img/antena_nodos.png" alt="Antena Direccional de Nodo">
+
+        <h2>Antena Direccional de Alta Capacidad</h2>
+
+        <p>
+            <b>Características:</b><br>
+            • Enlace inalámbrico punto a punto<br>
+            • Capacidad de transmisión Gigabit<br>
+            • Baja latencia para video en tiempo real<br>
+            • Optimizada para videovigilancia urbana<br>
+            • Alcance de varios kilómetros con línea de vista<br>
+            • Resistente a condiciones climáticas extremas<br>
+            • Operación continua 24/7
+        </p>
+
+        <p>
+            <b>Cantidad Requerida:</b>
+            39 Antenas
+        </p>
+
+        <p>
+            <b>Función:</b>
+            Concentrar el tráfico de aproximadamente 40 cámaras IP por nodo y transmitirlo de forma segura hacia las antenas sectoriales ubicadas en el Centro de Operaciones y Monitoreo.
+        </p>
+
+    </div>
+
+</section>
+
+<div class="card">
+
+    <div class="card-header">
+        <h2>Arquitectura de Inteligencia Artificial</h2>
+    </div>
+
+    <div class="table-responsive">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Módulo IA</th>
+                    <th>Tecnología</th>
+                    <th>Librerías / Frameworks</th>
+                    <th>Función</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Procesamiento Principal</td>
+                    <td>Python</td>
+                    <td>Python 3.13</td>
+                    <td>Lenguaje principal para el desarrollo de la plataforma de Inteligencia Artificial.</td>
+                </tr>
+
+                <tr>
+                    <td>Visión Computacional</td>
+                    <td>Computer Vision</td>
+                    <td>OpenCV</td>
+                    <td>Procesamiento de imágenes y video en tiempo real.</td>
+                </tr>
+
+                <tr>
+                    <td>Detección de Personas</td>
+                    <td>Deep Learning</td>
+                    <td>YOLOv11</td>
+                    <td>Detección de personas dentro de cada cámara.</td>
+                </tr>
+
+                <tr>
+                    <td>Reconocimiento Facial</td>
+                    <td>Face Recognition</td>
+                    <td>InsightFace</td>
+                    <td>Identificación y comparación de rostros.</td>
+                </tr>
+
+                <tr>
+                    <td>Reidentificación de Personas</td>
+                    <td>Person Re-ID</td>
+                    <td>FastReID</td>
+                    <td>Seguimiento de una persona entre múltiples cámaras.</td>
+                </tr>
+
+                <tr>
+                    <td>Seguimiento de Objetivos</td>
+                    <td>Tracking</td>
+                    <td>ByteTrack</td>
+                    <td>Mantener la identidad de una persona mientras se desplaza.</td>
+                </tr>
+
+                <tr>
+                    <td>Análisis Corporal</td>
+                    <td>Pose Estimation</td>
+                    <td>MediaPipe</td>
+                    <td>Detección de postura corporal y movimientos.</td>
+                </tr>
+
+                <tr>
+                    <td>Análisis de Vestimenta</td>
+                    <td>Clasificación Visual</td>
+                    <td>YOLO + OpenCV</td>
+                    <td>Identificación de color y tipo de ropa.</td>
+                </tr>
+
+                <tr>
+                    <td>Análisis de Cabello</td>
+                    <td>Deep Learning</td>
+                    <td>PyTorch</td>
+                    <td>Detección de color y características del cabello.</td>
+                </tr>
+
+                <tr>
+                    <td>Reconocimiento de Matrículas</td>
+                    <td>OCR</td>
+                    <td>PaddleOCR</td>
+                    <td>Lectura automática de placas vehiculares.</td>
+                </tr>
+
+                <tr>
+                    <td>Análisis de Comportamiento</td>
+                    <td>Machine Learning</td>
+                    <td>PyTorch</td>
+                    <td>Detección de peleas, caídas, aglomeraciones y eventos sospechosos.</td>
+                </tr>
+
+                <tr>
+                    <td>Base de Datos IA</td>
+                    <td>Almacenamiento</td>
+                    <td>PostgreSQL</td>
+                    <td>Almacenamiento de eventos, rostros y registros de búsqueda.</td>
+                </tr>
+
+                <tr>
+                    <td>Servidor IA</td>
+                    <td>GPU Computing</td>
+                    <td>CUDA + NVIDIA</td>
+                    <td>Aceleración del procesamiento mediante GPU.</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+<div class="card">
+
+    <div class="card-header">
+        <h2>Configuración de Red del Nodo de Cámaras</h2>
+    </div>
+
+    <div class="table-responsive">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Orden</th>
+                    <th>Equipo</th>
+                    <th>Configuración Principal</th>
+                    <th>Función</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td class="numero">1</td>
+                    <td>Switch PoE Industrial</td>
+                    <td>
+                        IP de gestión, VLAN de cámaras,
+                        QoS Video, PoE habilitado
+                    </td>
+                    <td class="funcion">
+                        Recibe aproximadamente 40 cámaras IP y concentra el tráfico.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="numero">2</td>
+                    <td>Antena Direccional</td>
+                    <td>
+                        Modo Station/Cliente,
+                        IP de gestión,
+                        enlace al sectorial
+                    </td>
+                    <td class="funcion">
+                        Transporta el tráfico del nodo hacia el Centro Operativo.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="numero">3</td>
+                    <td>Antena Sectorial</td>
+                    <td>
+                        Modo Access Point,
+                        frecuencia asignada,
+                        recepción de múltiples nodos
+                    </td>
+                    <td class="funcion">
+                        Recibe simultáneamente los enlaces provenientes de las antenas direccionales.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="numero">4</td>
+                    <td>Switch Core Capa 3</td>
+                    <td>
+                        VLAN principal,
+                        routing interno,
+                        enlace 10 Gbps
+                    </td>
+                    <td class="funcion">
+                        Recibe y distribuye todo el tráfico proveniente de las antenas sectoriales.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="numero">5</td>
+                    <td>Servidor VMS / IA</td>
+                    <td>
+                        Dirección IP fija,
+                        recepción de streams RTSP
+                    </td>
+                    <td class="funcion">
+                        Procesa, almacena y analiza el video recibido para monitoreo e inteligencia artificial.
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<section class="arquitectura">
+
+    <h2>Arquitectura General del Sistema</h2>
+
+    <div class="arquitectura-grid">
+
+        <div class="arquitectura-card">
+            <img src="img/nodos.jpeg" alt="Cámaras y Nodo">
+            <h3>Cámaras y Nodo Local</h3>
+            <p>
+                Grupo de aproximadamente 40 cámaras IP conectadas a un Switch PoE Industrial.
+            </p>
+        </div>
+
+        <div class="arquitectura-card">
+            <img src="img/comunicacion.jpeg" alt="Antena Direccional">
+            <h3>Transmisión Inalámbrica</h3>
+            <p>
+                Antenas direccionales de alta capacidad envían la información hacia el Centro de Operaciones.
+            </p>
+        </div>
+
+        <div class="arquitectura-card">
+            <img src="img/imagen1.jpeg" alt="Antena Sectorial">
+            <h3>Arquitectura de Comunicación</h3>
+
+                <p>
+                    Diagrama de la infraestructura de videovigilancia que ilustra el recorrido de la información desde las cámaras IP instaladas en campo hasta el Centro de Operaciones y Monitoreo, incluyendo enlaces inalámbricos, servidores y sistemas de visualización.
+                </p>
+        </div>
+
+
+    </div>
+
+</section>
+
+<div class="container">
+
+<div class="titulo">
+<h1>Sistema Inteligente de Videovigilancia Urbana</h1>
+<p>Infraestructura para 1.535 Cámaras IP con Analítica Avanzada e Inteligencia Artificial</p>
+</div>
+
+<!-- TABLA 1 -->
+
+<div class="card">
+
+<div class="card-header">
+<h2>Infraestructura de Campo (Desde la Cámara hasta el Centro Operativo)</h2>
+</div>
+
+<div class="table-responsive">
+
+<table>
+
+<thead>
+<tr>
+<th>Orden</th>
+<th>Componente</th>
+<th>Modelo Propuesto</th>
+<th>Cantidad</th>
+<th>Función</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td class="numero">1</td>
+<td>Cámara IP Inteligente 4K IA</td>
+<td class="modelo">Hikvision DS-2CD7086G0-AP</td>
+<td class="numero">1535</td>
+<td class="funcion">
+Captura video 4K de alta definición para reconocimiento facial,
+seguimiento de personas, análisis de vestimenta, silueta,
+trayectorias y comportamiento mediante IA.
+</td>
+</tr>
+
+<tr>
+<td class="numero">2</td>
+<td>Soporte y Brazo de Montaje</td>
+<td class="modelo">Industrial Galvanizado</td>
+<td class="numero">1535</td>
+<td>Instalación segura de las cámaras en postes y estructuras urbanas.</td>
+</tr>
+
+<tr>
+<td class="numero">3</td>
+<td>Caja de Protección Exterior</td>
+<td class="modelo">NEMA 4X Industrial</td>
+<td class="numero">1535</td>
+<td>Protección de conexiones eléctricas y de red contra lluvia, polvo y vandalismo.</td>
+</tr>
+
+<tr>
+<td class="numero">4</td>
+<td>Switch PoE Industrial</td>
+<td class="modelo">Cisco Catalyst IE3300</td>
+<td class="numero">39</td>
+<td>Alimenta las cámaras IP y concentra aproximadamente 40 cámaras por nodo.</td>
+</tr>
+
+<tr>
+<td class="numero">5</td>
+<td>Gabinete Exterior Inteligente</td>
+<td class="modelo">Industrial IP66</td>
+<td class="numero">39</td>
+<td>Aloja equipos de comunicaciones y protección eléctrica del nodo.</td>
+</tr>
+
+<tr>
+<td class="numero">6</td>
+<td>UPS Industrial</td>
+<td class="modelo">APC Industrial</td>
+<td class="numero">39</td>
+<td>Mantiene la operación ante interrupciones eléctricas locales.</td>
+</tr>
+
+<tr>
+<td class="numero">7</td>
+<td>Antena Direccional</td>
+<td class="modelo">airFiber 5XHD</td>
+<td class="numero">39</td>
+<td>Transporta el tráfico de cada nodo hacia el Centro de Operaciones.</td>
+</tr>
+
+<tr>
+<td class="numero">8</td>
+<td>Radio para Enlace Direccional</td>
+<td class="modelo">airFiber 5XHD</td>
+<td class="numero">39</td>
+<td>Gestiona enlaces inalámbricos de alta capacidad y baja latencia.</td>
+</tr>
+
+<tr>
+<td class="numero">9</td>
+<td>Torre de Telecomunicaciones</td>
+<td class="modelo">Autosoportada</td>
+<td class="numero">Según diseño</td>
+<td>Permite mantener línea de vista entre nodos y centro operativo.</td>
+</tr>
+
+<tr>
+<td class="numero">10</td>
+<td>Antena Sectorial 60°</td>
+<td class="modelo">airFiber X Sector</td>
+<td class="numero">6</td>
+<td>Recibe simultáneamente el tráfico proveniente de los nodos distribuidos.</td>
+</tr>
+
+<tr>
+<td class="numero">11</td>
+<td>Radio Base Empresarial</td>
+<td class="modelo">Rocket Prism 5AC Gen2</td>
+<td class="numero">12</td>
+<td>Procesa las comunicaciones inalámbricas recibidas por las sectoriales.</td>
+</tr>
+
+<tr>
+<td class="numero">12</td>
+<td>Fibra Óptica Interna</td>
+<td class="modelo">10/25 Gbps</td>
+<td class="numero">1</td>
+<td>Transporta datos desde los radios base hasta el núcleo de la red.</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+</div>
+
+<!-- TABLA 2 -->
+
+<div class="card">
+
+<div class="card-header">
+<h2>Arquitectura del Centro de Operaciones y Monitoreo (COM)</h2>
+</div>
+
+<div class="table-responsive">
+
+<table>
+
+<thead>
+<tr>
+<th>Orden</th>
+<th>Componente</th>
+<th>Cantidad</th>
+<th>Función Específica</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td class="numero">1</td>
+<td>Switch Core Capa 3 Principal</td>
+<td class="numero">1</td>
+<td>Recibe y distribuye todo el tráfico de video del sistema.</td>
+</tr>
+
+<tr>
+<td class="numero">2</td>
+<td>Switch Core Capa 3 Respaldo</td>
+<td class="numero">1</td>
+<td>Garantiza continuidad operativa ante fallas del switch principal.</td>
+</tr>
+
+<tr>
+<td class="numero">3</td>
+<td>Firewall Empresarial Principal</td>
+<td class="numero">1</td>
+<td>Protección perimetral de toda la infraestructura.</td>
+</tr>
+
+<tr>
+<td class="numero">4</td>
+<td>Firewall Empresarial Respaldo</td>
+<td class="numero">1</td>
+<td>Redundancia de seguridad y alta disponibilidad.</td>
+</tr>
+
+<tr>
+<td class="numero">5</td>
+<td>Servidor VMS Principal</td>
+<td class="numero">1</td>
+<td>Administra cámaras, usuarios, eventos y grabaciones.</td>
+</tr>
+
+<tr>
+<td class="numero">6</td>
+<td>Servidor VMS Secundario</td>
+<td class="numero">1</td>
+<td>Respaldo operativo y balanceo de carga.</td>
+</tr>
+
+<tr>
+<td class="numero">7</td>
+<td>Servidor de Almacenamiento Principal</td>
+<td class="numero">1</td>
+<td>Almacenamiento centralizado de video.</td>
+</tr>
+
+<tr>
+<td class="numero">8</td>
+<td>Servidor de Almacenamiento Secundario</td>
+<td class="numero">1</td>
+<td>Replica y protege las grabaciones.</td>
+</tr>
+
+<tr>
+<td class="numero">9</td>
+<td>Servidor IA GPU</td>
+<td class="numero">2</td>
+<td>Reconocimiento facial, siluetas, postura, cabello, vestimenta y seguimiento inteligente.</td>
+</tr>
+
+<tr>
+<td class="numero">10</td>
+<td>Controlador Video Wall</td>
+<td class="numero">2</td>
+<td>Distribuye cámaras y mapas sobre el muro de visualización.</td>
+</tr>
+
+<tr>
+<td class="numero">11</td>
+<td>Video Wall Principal</td>
+<td class="numero">12 Pantallas 55" 4K</td>
+<td>Monitoreo de incidentes críticos y visualización estratégica.</td>
+</tr>
+
+<tr>
+<td class="numero">12</td>
+<td>Video Wall Secundario</td>
+<td class="numero">6 Pantallas 55" 4K</td>
+<td>Operaciones de contingencia y monitoreo especializado.</td>
+</tr>
+
+<tr>
+<td class="numero">13</td>
+<td>Estaciones de Operador</td>
+<td class="numero">12</td>
+<td>Puestos de trabajo para supervisión, búsqueda y análisis de eventos.</td>
+</tr>
+
+<tr>
+<td class="numero">14</td>
+<td>Monitores de Operador</td>
+<td class="numero">24</td>
+<td>Dos monitores por operador para trabajo simultáneo.</td>
+</tr>
+
+<tr>
+<td class="numero">15</td>
+<td>UPS Online</td>
+<td class="numero">2</td>
+<td>Respaldo energético de infraestructura crítica.</td>
+</tr>
+
+<tr>
+<td class="numero">16</td>
+<td>Generador Eléctrico</td>
+<td class="numero">1</td>
+<td>Mantiene el centro operativo funcionando durante cortes prolongados.</td>
+</tr>
+
+<tr>
+<td class="numero">17</td>
+<td>Racks de Comunicaciones</td>
+<td class="numero">4</td>
+<td>Organización física de equipos y cableado.</td>
+</tr>
+
+<tr>
+<td class="numero">18</td>
+<td>Aire Acondicionado de Precisión</td>
+<td class="numero">2</td>
+<td>Control térmico para servidores y equipos críticos.</td>
+</tr>
+
+</tbody>
+
+</table>
+
+
+</div>
+
+</div>
+
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Frecuencia</th>
+            <th>Actividades</th>
+            <th>Tiempo Estimado</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td><strong>Mensual</strong></td>
+            <td>
+                • Revisión de cámaras IP.<br>
+                • Verificación de switches PoE y conectividad de red.<br>
+                • Revisión de antenas direccionales y sectoriales.<br>
+                • Supervisión de servidores y almacenamiento.<br>
+                • Verificación del funcionamiento de los módulos de IA.
+            </td>
+            <td>4 a 8 horas</td>
+        </tr>
+
+        <tr>
+            <td><strong>Trimestral</strong></td>
+            <td>
+                • Inspección de cableado estructurado y conectores.<br>
+                • Respaldo de configuraciones de red.<br>
+                • Optimización de bases de datos.<br>
+                • Ajuste y optimización de modelos de IA.<br>
+                • Verificación de UPS y sistemas de respaldo.
+            </td>
+            <td>1 día (8 horas)</td>
+        </tr>
+
+        <tr>
+            <td><strong>Semestral</strong></td>
+            <td>
+                • Actualización de firmware de switches y antenas.<br>
+                • Actualización de software y librerías de IA.<br>
+                • Revisión física de gabinetes y estructuras.<br>
+                • Limpieza preventiva de equipos críticos.
+            </td>
+            <td>1 a 2 días</td>
+        </tr>
+
+        <tr>
+            <td><strong>Anual</strong></td>
+            <td>
+                • Auditoría integral de la infraestructura tecnológica.<br>
+                • Reentrenamiento y mejora de modelos de IA.<br>
+                • Evaluación de capacidad y rendimiento del sistema.<br>
+                • Elaboración de informe técnico y plan de mejoras.
+            </td>
+            <td>2 a 5 días</td>
+        </tr>
+
+        <tr>
+            <td><strong>Bajo Demanda</strong></td>
+            <td>
+                • Atención de fallas.<br>
+                • Reposición de equipos.<br>
+                • Soporte técnico especializado.<br>
+                • Ajustes solicitados por la entidad operadora.
+            </td>
+            <td>Según la incidencia</td>
+        </tr>
+
+    </tbody>
+</table>
+</body>
+</html>
+
+
